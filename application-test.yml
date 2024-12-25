@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: ConfigServer test from config server
+
+myproperties:
+  greeting: hello world! from config server for test profile
+
+my:
+  list:
+    values: one, two, three, test
+
+db:
+  url: https://localhost/from/config/server
+  username: test-from config server
+  password: bar
+  host: 127.0.0.1
+  port: 8090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

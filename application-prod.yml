@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Config prod from config server
+
+myproperties:
+  greeting: hello world! from config server from prod app
+
+my:
+  list:
+    values: one, two, three, prod
+
+db:
+  url: https://localhost/prod/someUrl
+  username: prod-from config server
+  password: bar
+  host: 127.0.0.1
+  port: 8090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

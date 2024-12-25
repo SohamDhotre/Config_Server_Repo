@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Application name ConfigServerDemo
+
+myproperties:
+  greeting: hello world! this is testing message for refreshScope 
+
+my:
+  list:
+    values: one, two, three, dev
+
+db:
+  url: https://localhost/dev/from/config/server
+  username: dev-from config server
+  password: bar
+  host: 127.0.0.1
+  port: 8090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

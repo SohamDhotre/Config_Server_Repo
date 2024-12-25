@@ -1,0 +1,14 @@
+# application.properties
+spring.application.name: ConfigServer default from config server
+myproperties.greeting: hello world! from default profile from config server
+my.list.values: one, two, three
+
+db:
+  url: https://localhost/someUrl
+  username: default-from config server
+  password: bar
+  host: 127.0.0.1
+  port: 8080
+
+
+management.endpoints.web.exposure.include: "*"
